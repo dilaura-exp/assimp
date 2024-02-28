@@ -166,6 +166,7 @@ IF (WIN32)
           $<$<CONFIG:>:/MT>
           $<$<CONFIG:Debug>:/MTd>
           $<$<CONFIG:Release>:/MT>
+          $<$<CONFIG:Dist>:/MT>
       )
     endif()
   ENDIF()
